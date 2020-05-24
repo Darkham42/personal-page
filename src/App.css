@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background: url('/assets/img/tv.gif');
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  border: 5px solid white;
+  padding: 0.5em;
+  color: #fff;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.5em;
+  color: #fff;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
